@@ -118,5 +118,6 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
 end
-  end.flatten.compact
+  end.flatten.compact #flatten remove extra brackets and prints one long array of stings with commas included
+                      #compact removes the nil values that would've been returned if not for compact
 end
